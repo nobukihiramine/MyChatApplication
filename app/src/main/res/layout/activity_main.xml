@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your nickname"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button_gotochat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to CHAT" />
+
+    </LinearLayout>
+
+</RelativeLayout>
